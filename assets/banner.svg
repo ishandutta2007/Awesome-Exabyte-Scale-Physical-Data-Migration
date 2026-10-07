@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 42px; fill: #ffffff; }
+      .subtitle { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+      .tag { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 14px; fill: #38bdf8; }
+      .badge-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 13px; fill: #f8fafc; }
+      
+      @keyframes floatPulse {
+        0% { transform: translateY(0px) scale(1); opacity: 0.4; }
+        50% { transform: translateY(-10px) scale(1.05); opacity: 0.8; }
+        100% { transform: translateY(0px) scale(1); opacity: 0.4; }
+      }
+      
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -40; }
+      }
+
+      .animated-bg-circle { animation: floatPulse 6s ease-in-out infinite; }
+      .flowing-line { stroke-dasharray: 8 8; animation: dashFlow 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Dynamic Animated Background Elements (Kept in distant background opacity) -->
+  <circle cx="150" cy="80" r="180" fill="#1e3a8a" class="animated-bg-circle" style="filter: blur(60px);" />
+  <circle cx="1050" cy="280" r="200" fill="#581c87" class="animated-bg-circle" style="filter: blur(70px); animation-delay: -3s;" />
+
+  <!-- Background Tech Grid Lines -->
+  <path d="M 0,90 L 1200,90 M 0,180 L 1200,180 M 0,270 L 1200,270" stroke="#334155" stroke-opacity="0.3" stroke-width="1" />
+  <path d="M 200,0 L 200,360 M 400,0 L 400,360 M 600,0 L 600,360 M 800,0 L 800,360 M 1000,0 L 1000,360" stroke="#334155" stroke-opacity="0.3" stroke-width="1" />
+
+  <!-- Animated Data Flow Line (Far Right side) -->
+  <path d="M 750,260 C 850,260 900,140 1100,140" fill="none" stroke="url(#primaryGlow)" stroke-width="3" class="flowing-line" opacity="0.6" />
+
+  <!-- Content Container Card -->
+  <rect x="50" y="40" width="1100" height="280" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Top Accent Glow Bar -->
+  <rect x="50" y="40" width="1100" height="4" rx="2" fill="url(#primaryGlow)" />
+
+  <!-- Visual Icon Accent (Data Truck & Cloud Storage Concept) -->
+  <g transform="translate(80, 85)">
+    <rect x="0" y="0" width="64" height="64" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2" />
+    <!-- Truck / Box Icon -->
+    <path d="M16 22h20v16H16zM36 28h12l4 6v4H36z" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="22" cy="42" r="3" fill="#38bdf8"/>
+    <circle cx="42" cy="42" r="3" fill="#38bdf8"/>
+  </g>
+
+  <!-- Category Tag -->
+  <g transform="translate(160, 92)">
+    <rect x="0" y="0" width="240" height="28" rx="14" fill="#0f172a" stroke="#0284c7" stroke-width="1"/>
+    <text x="12" y="19" class="tag">📦 PETABYTE &amp; EXABYTE MIGRATION</text>
+  </g>
+
+  <!-- Foreground Title (Guaranteed Sharp & Visible) -->
+  <text x="80" y="170" class="title" filter="url(#glow)">Awesome Exabyte-Scale Physical Data Migration</text>
+
+  <!-- Foreground Subtitle -->
+  <text x="80" y="210" class="subtitle">Curated directory of data transport appliances, high-speed WAN transfers &amp; open-source tools</text>
+
+  <!-- Metric / Feature Badges -->
+  <g transform="translate(80, 245)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="160" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="14" y="22" class="badge-text">🚚 Physical Migration</text>
+
+    <!-- Badge 2 -->
+    <rect x="175" y="0" width="170" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="189" y="22" class="badge-text">⚡ High-Speed WAN</text>
+
+    <!-- Badge 3 -->
+    <rect x="360" y="0" width="175" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="374" y="22" class="badge-text">🔓 Open-Source Tools</text>
+
+    <!-- Badge 4 -->
+    <rect x="550" y="0" width="180" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="564" y="22" class="badge-text">🎞️ Tape &amp; Disk Archive</text>
+  </g>
+
+  <!-- Scale Indicator Pill (Right Side) -->
+  <g transform="translate(930, 85)">
+    <rect x="0" y="0" width="180" height="190" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="90" y="45" font-family="sans-serif" font-weight="800" font-size="32" fill="#38bdf8" text-anchor="middle">100+ PB</text>
+    <text x="90" y="70" font-family="sans-serif" font-weight="600" font-size="13" fill="#94a3b8" text-anchor="middle">TO EXABYTE SCALE</text>
+    
+    <line x1="20" y1="90" x2="160" y2="90" stroke="#334155" stroke-width="1"/>
+    
+    <text x="90" y="120" font-family="sans-serif" font-weight="700" font-size="14" fill="#f1f5f9" text-anchor="middle">Snowball / Data Box</text>
+    <text x="90" y="145" font-family="sans-serif" font-weight="700" font-size="14" fill="#f1f5f9" text-anchor="middle">EOS / Rclone / Globus</text>
+    <text x="90" y="170" font-family="sans-serif" font-weight="700" font-size="14" fill="#f1f5f9" text-anchor="middle">Aspera / Phobos</text>
+  </g>
+</svg>

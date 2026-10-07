@@ -71,34 +71,34 @@ The exabyte-scale physical data migration market spans **hyperscaler appliance s
 
 ## 🔓 Open-Source GitHub Projects 🛠️ ⭐
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Syncthing](https://github.com/syncthing/syncthing)** [![Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)  
-  **Continuous peer-to-peer file synchronization**, MPL-2.0 licensed. **64K+ GitHub stars** — **decentralized, peer-to-peer data sync without central servers**. **TLS encryption, automatic file versioning, and conflict resolution**. **Ideal for continuous multi-site and edge server data mirror operations**. 📂 ⚡
+  **Continuous peer-to-peer file synchronization**, MPL-2.0 licensed. **64K+ GitHub_Stars** — **decentralized, peer-to-peer data sync without central servers**. **TLS encryption, automatic file versioning, and conflict resolution**. **Ideal for continuous multi-site and edge server data mirror operations**. 📂 ⚡
 
 - **[Rclone](https://github.com/rclone/rclone)** [![Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)  
-  **The Swiss army knife of cloud storage sync**, MIT licensed. **50K+ GitHub stars** — **supports 70+ cloud storage providers** with a unified CLI interface. **Sync, copy, move, mount (FUSE), and serve (HTTP/WebDAV/FTP)**. **Bandwidth limiting, checksum verification, and incremental transfers**. **The de facto standard for open-source cloud data migration**. 🔄 ☁️
+  **The Swiss army knife of cloud storage sync**, MIT licensed. **50K+ GitHub_Stars** — **supports 70+ cloud storage providers** with a unified CLI interface. **Sync, copy, move, mount (FUSE), and serve (HTTP/WebDAV/FTP)**. **Bandwidth limiting, checksum verification, and incremental transfers**. **The de facto standard for open-source cloud data migration**. 🔄 ☁️
 
 - **[restic](https://github.com/restic/restic)** [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)  
-  **Fast, secure, efficient backup program**, BSD-2-Clause licensed. **28K+ GitHub stars** — **single self-contained binary with zero dependencies**. **Supports S3, GCS, Azure Blob, Backblaze B2, SFTP, and local storage**. **Built-in deduplication, AES-256 encryption, and incremental snapshots**. **The modern standard for encrypted data backups & migration snapshots**. ⚡ 🔒
+  **Fast, secure, efficient backup program**, BSD-2-Clause licensed. **28K+ GitHub_Stars** — **single self-contained binary with zero dependencies**. **Supports S3, GCS, Azure Blob, Backblaze B2, SFTP, and local storage**. **Built-in deduplication, AES-256 encryption, and incremental snapshots**. **The modern standard for encrypted data backups & migration snapshots**. ⚡ 🔒
 
 - **[OpenZFS](https://github.com/openzfs/zfs)** [![Stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&color=white)](https://github.com/openzfs/zfs/stargazers)  
-  **Advanced enterprise file system and volume manager**, CDDL-1.0 licensed. **13K+ GitHub stars** — **unmatched data integrity, copy-on-write snapshots, and block-level replication**. **`zfs send` and `zfs receive` streams enable exabyte-scale incremental disk migrations across hosts**. 🗄️ 💾
+  **Advanced enterprise file system and volume manager**, CDDL-1.0 licensed. **13K+ GitHub_Stars** — **unmatched data integrity, copy-on-write snapshots, and block-level replication**. **`zfs send` and `zfs receive` streams enable exabyte-scale incremental disk migrations across hosts**. 🗄️ 💾
 
 - **[rsync](https://github.com/RsyncProject/rsync)** [![Stars](https://img.shields.io/github/stars/RsyncProject/rsync?style=social&color=white)](https://github.com/RsyncProject/rsync/stargazers)  
-  **The classic incremental delta file transfer utility**, GPL-3.0 licensed. **7K+ GitHub stars** — **foundational delta-transfer algorithm** that transmits only modified file differences over SSH/network. **30 years of enterprise production reliability**. 📦 🚀
+  **The classic incremental delta file transfer utility**, GPL-3.0 licensed. **7K+ GitHub_Stars** — **foundational delta-transfer algorithm** that transmits only modified file differences over SSH/network. **30 years of enterprise production reliability**. 📦 🚀
 
 - **[BorgBackup](https://github.com/borgbackup/borg)** [![Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)  
-  **Deduplicating archiver with compression and authenticated encryption**, BSD-3-Clause licensed. **12K+ GitHub stars** — **authenticated encryption (AES-256), inline compression (LZ4, ZSTD), and client-side deduplication**. **Optimized for daily incremental server backups and archive transport**. 🛡️ 💾
+  **Deduplicating archiver with compression and authenticated encryption**, BSD-3-Clause licensed. **12K+ GitHub_Stars** — **authenticated encryption (AES-256), inline compression (LZ4, ZSTD), and client-side deduplication**. **Optimized for daily incremental server backups and archive transport**. 🛡️ 💾
 
 - **[Kopia](https://github.com/kopia/kopia)** [![Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)  
-  **Cross-platform backup and restore tool**, Apache-2.0 licensed. **7.5K+ GitHub stars** — **fast, encrypted, deduplicated backups to cloud storage**. **Supports S3, Azure Blob, Google Cloud Storage, WebDAV, and SFTP with CLI and GUI interfaces**. 🚀 🔐
+  **Cross-platform backup and restore tool**, Apache-2.0 licensed. **7.5K+ GitHub_Stars** — **fast, encrypted, deduplicated backups to cloud storage**. **Supports S3, Azure Blob, Google Cloud Storage, WebDAV, and SFTP with CLI and GUI interfaces**. 🚀 🔐
 
 - **[EOS (CERN)](https://github.com/cern-eos/eos)** [![Stars](https://img.shields.io/github/stars/cern-eos/eos?style=social&color=white)](https://github.com/cern-eos/eos/stargazers)  
   **Highly scalable distributed storage system for large data volumes**, LGPL-3.0 licensed. **Developed at CERN for Large Hadron Collider (LHC) physics experiments**. **POSIX-like access, erasure coding, and multi-petabyte to exabyte scalability**. **Engineered for 1 TB/s aggregated egress speeds**. 🏛️ 🔬
 
 - **[s3ql](https://github.com/s3ql/s3ql)** [![Stars](https://img.shields.io/github/stars/s3ql/s3ql?style=social&color=white)](https://github.com/s3ql/s3ql/stargazers)  
-  **Full-featured FUSE file system for cloud object storage**, GPL-3.0 licensed. **1.3K+ GitHub stars** — **presents cloud object storage (S3, GCS, OpenStack) as an infinite-capacity hard drive**. **Supports compression, encryption, dynamic deduplication, and immutable snapshotting**. 💾 ☁️
+  **Full-featured FUSE file system for cloud object storage**, GPL-3.0 licensed. **1.3K+ GitHub_Stars** — **presents cloud object storage (S3, GCS, OpenStack) as an infinite-capacity hard drive**. **Supports compression, encryption, dynamic deduplication, and immutable snapshotting**. 💾 ☁️
 
 - **[Chorus](https://github.com/clyso/chorus)** [![Stars](https://img.shields.io/github/stars/clyso/chorus?style=social&color=white)](https://github.com/clyso/chorus/stargazers)  
   **Distributed S3 object storage migration and proxy routing**, Apache-2.0 licensed. **Accelerates transfers between S3-compatible endpoints** using multi-node parallelization. **Real-time change data capture (CDC) and zero-downtime replication**. 🎯 🔀
@@ -117,7 +117,7 @@ Contributions are welcome! Follow these steps to submit new exabyte-scale data m
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-3. 🔗 Include project title, official website/GitHub link, exact star count badge, license, and brief description.
+3. 🔗 Include project title, official website/GitHub link, exact Stars_Count badge, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
 ---
